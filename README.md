@@ -29,7 +29,7 @@ Syntax/语法
 gcr.io/namespace/{image}:{tag}
  
 # eq / 等同于
-registry.cn-hangzhou.aliyuncs.com/aliyun_ago/{image}:{tag}
+registry.cn-hangzhou.aliyuncs.com/leesirc_pub/{image}:{tag}
 ```
 
 ## Uses/如何拉取新镜像
