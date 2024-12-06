@@ -35,7 +35,7 @@ registry.cn-hangzhou.aliyuncs.com/leesirc_pub/{image}:{tag}
 ## Uses/如何拉取新镜像
 -------
 
-[创建 Issues (直接套用模板即可)](https://github.com/im-jinxinwang/sync-image/issues/new/choose)，将自动触发 GitHub Actions 进行拉取并推送到阿里云容器镜像服务。
+[创建 Issues (直接套用模板即可)](https://github.com/leesirc/sync-image/issues/new/choose)，将自动触发 GitHub Actions 进行拉取并推送到阿里云容器镜像服务。
 
 **注意：**
 
@@ -45,7 +45,7 @@ registry.cn-hangzhou.aliyuncs.com/leesirc_pub/{image}:{tag}
   - `quay.io/calico/apiserver:v3.28.0-28-g834d69939613`
 - 默认同步所有平台。
 - Issues 的内容无所谓，可以为空。
-   - 可以参考 [已搬运镜像集锦](https://github.com/im-jinxinwang/sync-image/issues?q=is%3Aissue+label%3Aporter+)。
+   - 可以参考 [已搬运镜像集锦](https://github.com/leesirc/sync-image/issues?q=is%3Aissue+label%3Aporter+)。
 
 - 本项目目前仅支持 `mirror_rules.yaml` 文件中的镜像。对于其他镜像源，您可以提 Issues 反馈，或者自行 Fork 项目并修改 `mirror_rules.yaml`。
 
