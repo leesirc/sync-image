@@ -7,3 +7,5 @@ mirrors:
   - docker.io
   - docker.elastic.co
   - nvcr.io
+  # 2026.6.16
+  - xxx.xuanyuan.run
